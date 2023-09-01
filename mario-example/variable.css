@@ -5,8 +5,16 @@ h1,h2,h3{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
- root{
+ .root{
     --theme-color:#daa33e;
+    --link-color:#daa33e;
+    --layout:1fr 1fr 1fr;
+ }
+ @media screen and (max-width:760px){
+    .root{
+        --layout:1fr 1fr 1fr;
+    }
+
  }
 nav.main-nav ul{
     width: 600px;
