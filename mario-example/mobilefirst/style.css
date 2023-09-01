@@ -1,0 +1,28 @@
+:root{
+    --primary:#ffc636;
+    --secondary:#0a0b5b;
+}
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body{
+    background: var(--sceondary);
+    overflow-x: hidden;
+    font-family: 'Rubik Regular';
+}
+.button{
+    background: none;
+    border: 2px solid;
+    color: var(--primary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgda(0,0,0,6);
+    display: inline-block;
+    font-size: 1em;
+}
